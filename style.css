@@ -1,0 +1,44 @@
+
+:root {
+    --first-color:rgb(171,206,14);
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right,#1e254e,#582525,#0e1415);
+
+}
+
+.container {
+    text-align: center;
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.911);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:var(--first-color)
+}
+
+.stopwatch {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e1f1e;
+    color:var(--first-color);
+    cursor: pointer;
+}
